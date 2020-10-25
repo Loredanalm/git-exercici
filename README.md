@@ -14,7 +14,7 @@ Working with branches:
 6. From this merge the changes from "branch1" to your "master" branch.
 
 Conflicts!
-1. As expected, Git alerts you to changes in both branches. In this case we have 3 options:
+As expected, Git alerts you to changes in both branches. In this case we have 3 options:
  a. Mine: Selecting changes to the current "master" branch is the right version.
  b. Their: Select that the changes in the other branch "branch1" are the right ones.
  c. Resolve the conflict: If you access the file you will see that git has added 3 lines of code, delete them and leave the two lines (one for each branch).
