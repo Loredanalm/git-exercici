@@ -15,8 +15,8 @@ Working with branches:
 
 Conflicts!
 1. As expected, Git alerts you to changes in both branches. In this case we have 3 options:
-a. Mine: Selecting changes to the current "master" branch is the right version.
-b. Their: Select that the changes in the other branch "branch1" are the right ones.
-c. Resolve the conflict: If you access the file you will see that git has added 3 lines of code, delete them and leave the two lines (one for each branch).
+ a. Mine: Selecting changes to the current "master" branch is the right version.
+ b. Their: Select that the changes in the other branch "branch1" are the right ones.
+ c. Resolve the conflict: If you access the file you will see that git has added 3 lines of code, delete them and leave the two lines (one for each branch).
 You must use option c for the exercise.
 Once the conflict is resolved, the master branch must be committed and pushed.
